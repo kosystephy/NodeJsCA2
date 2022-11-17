@@ -1,8 +1,8 @@
 import React, {Component} from "react"
 import axios from "axios"
-import TourismTable from "./TourismTable"
+import CarTable from "./CarTable"
 
-export default class Home extends Component 
+export default class About extends Component 
 {
     
   
@@ -11,7 +11,7 @@ export default class Home extends Component
         return (           
             <div className="form-container">
                 <div className="table-container">
-                    <h1>This is the home page</h1>
+                    <h1>This is the About Us page</h1>
                 </div>
             </div> 
         )
