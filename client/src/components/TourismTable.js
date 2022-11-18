@@ -20,7 +20,7 @@ export default class TourismTable extends Component
                 </thead>
                   
                 <tbody>
-                    {this.props.toursim.map((car) => <TourismRow key={tourism.geos} tourism={tourism}/>)}
+                    {this.props.toursim.map((car) => <TourismRow key={tourism.geo} tourism={tourism}/>)}
                 </tbody>
             </table>      
         )
